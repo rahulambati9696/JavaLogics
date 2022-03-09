@@ -2,7 +2,8 @@ package javaalllogics;
 
 import java.util.Scanner;
 
-public class SumOfDigits{ 
+public class SumOfDigits
+{ 
 	public static void main(String[] args) 
 	{
 		@SuppressWarnings("resource")
@@ -11,10 +12,12 @@ public class SumOfDigits{
 		int n = sc.nextInt(); 
 		int a,i=0,j=0; 
 		a=n; 
-		while(a>0) { 
+		while(a>0) 
+		{ 
 			i=a%10; 
 			j=j+i; 
 			a=a/10;
 		} 
-		System.out.println("Sum of the digits "+j); } 
+		System.out.println("Sum of the digits "+j);
+	} 
 } 
