@@ -20,6 +20,8 @@ public class TraverseElementsInLinkedList
         list.add("SERVLETS");
  
         list.add("JDBC");
+        
+        list.add("SQL");
  
         //Printing the elements of list
  
