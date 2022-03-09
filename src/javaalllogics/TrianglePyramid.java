@@ -1,10 +1,20 @@
 package javaalllogics;
 
+import java.util.Scanner;
+
 public class TrianglePyramid 
 {
 	public static void main(String[] args) 
 	{
-		int rows = 5, k = 0, count = 0, count1 = 0;
+	//	int rows = 5, k = 0, count = 0, count1 = 0; 
+		
+		@SuppressWarnings("resource")
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter any number");
+		
+		int r=sc.nextInt();
+		
+		int rows = r, k = 0, count = 0, count1 = 0;    
 
 		for (int i = 1; i <= rows; ++i) {
 			for (int space = 1; space <= rows - i; ++space) {

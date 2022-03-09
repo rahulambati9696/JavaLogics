@@ -1,11 +1,20 @@
 package javaalllogics;
 
+import java.util.Scanner;
+
 public class TypesOfCharacters 
 { 
 	public static void main(String[] args) 
 	{ 
 		int lCaseCount = 0, uCaseCount = 0, numbersCount = 0, sCharCount = 0;
-		String s = "WelCome TO JAaA Class @ 12345"; 
+		
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the String...");
+		String inputString = sc.nextLine();
+		
+		String s = inputString; 
 		for (int i = 0; i < s.length(); i++) 
 		{ 
 			char ch = s.charAt(i); 
