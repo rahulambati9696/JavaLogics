@@ -7,6 +7,7 @@ public class StrEndsWithExample
 		String s1="hello how are you"; 
 		System.out.println(s1.endsWith("u"));       // returns true
 		System.out.println(s1.endsWith("you"));     // returns true   
-		System.out.println(s1.endsWith("how"));     // returns false
+		System.out.println(s1.endsWith("how")); 
+		System.out.println(s1.endsWith("ou"));// returns false
 	}
 }
